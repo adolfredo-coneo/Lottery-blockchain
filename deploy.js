@@ -25,6 +25,7 @@ const deploy = async () => {
       gasPrice: '5000000000',
     });
 
+    console.log(abi);
     console.log('Contract deployed to', contract.options.address);
 
 };
